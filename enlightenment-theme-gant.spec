@@ -1,5 +1,6 @@
 %define	_theme	gant
 Summary:	E17 theme based on the G.A.N.T. icons
+Summary(pl):	Motyw E17 oparty na ikonach G.A.N.T.
 Name:		enlightenment-theme-%{_theme}
 Version:	0.0.2
 Release:	1
@@ -14,6 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 E17 theme based on the G.A.N.T. icons.
+
+%description -l pl
+Motyw E17 oparty na ikonach G.A.N.T.
 
 %prep
 
